@@ -57,7 +57,7 @@ async def interrupt():
         if keyboard.is_pressed('q'):
             print("Цикл перервано.")
             k = False
-        await asyncio.sleep(0.1)   # Додано затримку, щоб знизити навантаження на процесор
+        await asyncio.sleep(0.1)   
 
 async def main():
     print('Start')
